@@ -1,0 +1,84 @@
+{
+  "date_utc": "2026-10-23T15:02:20.796394+00:00",
+  "write_tests": false,
+  "errors": 0,
+  "tests": [
+    {
+      "test": "DELEGATED: autenticación",
+      "status": "OK"
+    },
+    {
+      "test": "DELEGATED: /me y cuenta del alumno",
+      "status": "OK"
+    },
+    {
+      "test": "DELEGATED: usuarios",
+      "status": "OK"
+    },
+    {
+      "test": "DELEGATED: grupo",
+      "status": "OK"
+    },
+    {
+      "test": "DELEGATED: miembros",
+      "status": "OK"
+    },
+    {
+      "test": "DELEGATED: pertenencia al grupo",
+      "status": "OK"
+    },
+    {
+      "test": "DELEGATED: SharePoint y carpeta /CursoGraph",
+      "status": "OK"
+    },
+    {
+      "test": "DELEGATED: Planner, buckets y tareas",
+      "status": "OK"
+    },
+    {
+      "test": "DELEGATED: correo",
+      "status": "OK"
+    },
+    {
+      "test": "DELEGATED: OneDrive",
+      "status": "OK"
+    },
+    {
+      "test": "DELEGATED: calendario",
+      "status": "OK"
+    },
+    {
+      "test": "DELEGATED: Team, canal y mensajes",
+      "status": "OK"
+    },
+    {
+      "test": "APP-ONLY: autenticación",
+      "status": "OK"
+    },
+    {
+      "test": "APP-ONLY: usuarios",
+      "status": "OK"
+    },
+    {
+      "test": "APP-ONLY: grupo",
+      "status": "OK"
+    },
+    {
+      "test": "APP-ONLY: miembros",
+      "status": "OK"
+    },
+    {
+      "test": "APP-ONLY: SharePoint y carpeta /CursoGraph",
+      "status": "OK"
+    },
+    {
+      "test": "APP-ONLY: Planner, buckets y tareas",
+      "status": "OK"
+    },
+    {
+      "test": "APP-ONLY: correo",
+      "status": "OK"
+    }
+  ],
+  "created_resources": []
+}

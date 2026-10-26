@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Tema 2 - local",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "src.smoke_test",
+      "args": [
+        "--local"
+      ],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    }
+  ]
+}
