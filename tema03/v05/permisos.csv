@@ -1,0 +1,6 @@
+servicio,operacion,endpoint,permiso_delegado,condicion
+Perfil,Leer perfil,/me,User.Read,Usuario conectado
+Outlook,Leer asunto y remitente,/me/messages,Mail.ReadBasic,Buzón disponible
+Teams,Enviar mensaje,/teams/{team}/channels/{channel}/messages,ChannelMessage.Send,Acceso al canal
+OneDrive,Leer archivos,/me/drive/root/children,Files.Read,OneDrive aprovisionado
+Planner,Leer tareas,/planner/plans/{plan}/tasks,Tasks.Read,Acceso al plan
