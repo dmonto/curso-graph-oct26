@@ -1,0 +1,4 @@
+msal>=1.29,<2
+requests>=2.31,<3
+python-dotenv>=1,<2
+aiohttp>=3.9,<4

@@ -60,6 +60,7 @@ def token_aplicacion(config):
             f"MSAL: {error}; códigos={codigos}; correlation_id={correlacion}."
         )
     logger.info("Token de aplicación recibido en memoria")
+    print(resultado)
     return resultado["access_token"]
 
 

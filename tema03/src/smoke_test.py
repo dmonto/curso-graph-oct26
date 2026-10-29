@@ -53,6 +53,7 @@ def obtener_token(config):
             )
         print(flow["message"], flush=True)
         resultado = app.acquire_token_by_device_flow(flow)
+        print(resultado)
     except requests.RequestException:
         raise RuntimeError("Error de red al contactar con Microsoft Entra ID.") from None
     except ValueError:
