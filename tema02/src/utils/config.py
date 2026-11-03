@@ -19,7 +19,7 @@ class Config:
 
 
 def leer_config(validar_identidad: bool = True) -> Config:
-    load_dotenv(ROOT / ".env", override=False)
+    load_dotenv(ROOT / ".env", override=True)
     tenant_id = os.getenv("TENANT_ID", "").strip()
     client_id = os.getenv("CLIENT_ID_DELEGATED", "").strip()
 

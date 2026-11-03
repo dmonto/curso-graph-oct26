@@ -11,7 +11,7 @@ python -m venv .venv
 .\.venv\Scripts\python.exe .\v04_prueba_y_diagnostico\main.py --local
 ```
 
-Completa el único `.env` de la raíz. TENANT_ID es el tenant; CLIENT_ID_DELEGATED es el registro público con flujo de cliente público habilitado y permiso delegado User.Read; CLIENT_ID_APPONLY es el registro confidencial con permiso de aplicación para /users (User.Read.All según el setup) y consentimiento administrativo. CLIENT_SECRET es el valor de su secreto. Las variables del proceso prevalecen sobre .env.
+Completa el único `.env` de la raíz. TENANT_ID es el tenant; CLIENT_ID_DELEGATED es el registro público con flujo de cliente público habilitado y permiso delegado User.Read; CLIENT_ID_APPONLY es el registro confidencial con permiso de aplicación para /users (User.Read.All según el setup) y consentimiento administrativo. CLIENT_SECRET es el valor de su secreto. Los valores del .env prevalecen sobre las variables del proceso.
 
 ## Ejemplos, en orden
 
