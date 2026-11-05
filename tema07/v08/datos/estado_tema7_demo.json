@@ -1,0 +1,12 @@
+{
+  "run_id": "00000000-0000-4000-8000-000000000076",
+  "modo_origen": "simulacion_local",
+  "resultado_lectura": "ok",
+  "propuestas": [
+    {"caso": "FIN-001", "titulo": "<revisar & confirmar> la propuesta de proveedor", "estado": "listo_para_revision"},
+    {"caso": "RRHH-001", "titulo": "Revisar consulta laboral", "estado": "sin_responsable_verificado"},
+    {"caso": "MANT-001", "titulo": "Revisar incidencia de centro", "estado": "listo_para_revision"},
+    {"caso": "MANT-002", "titulo": "Revisar visita de mantenimiento", "estado": "sin_responsable_verificado"},
+    {"caso": "FIN-001", "titulo": "Revisar evento de seguimiento", "estado": "listo_para_revision"}
+  ]
+}
